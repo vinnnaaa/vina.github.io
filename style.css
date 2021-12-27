@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D3E4CD;
+}
+
+.wrapper {
+  width: 1500px;
+  margin: auto;
+  position: relative;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  float: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: fixed;
+  background-color: #99a799;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  top: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 0px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: greenyellow;
+  transition: all 0.4s;
+  transform: translateY(-4px);
+}
+
+.menu {
+  float: right;
+}
+
+#check {
+  display: none;
+}
+
+.mobile-menu {
+  float: right;
+  display: none;
+}
+
+.mobile-menu:hover {
+  cursor: pointer;
+}
+
+#check {
+  display: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  width: 300px;
+  background-color: rgb(153, 167, 153);
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+}
+
+.sidebar ul li {
+  padding: 30px;
+  transition: .3px;
+  transition-property: background-color: #D3E4CD;
+}
+
+.sidebar ul li:hover {
+  background-color: #D3E4CD;
+}
+
+#check:checked ~ .sidebar{
+  left: 0;
+}
+
+section h2 {
+  padding-bottom: 24px;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+#about p {
+  text-align: center;
+  text-indent: 100px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+.about .container p {
+  text-align: center;
+}
+
+section h3 {
+  text-align: center;
+}
+
+.hobby .container h3{
+  padding: 50px 0;
+}
+
+.col-4 {
+  width: 23%;
+  box-sizing: border-box;
+  padding: 5px;
+  float: left;
+  text-align: center;
+}
+
+.col-4 a:hover img {
+  transform: scale(1.2);
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+  .wrapper ul {
+    display: none;
+  }
+  .col-4{
+    width: 50%;
+  }
+}
+
+.banner {
+  background-color: #d3e4cd;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.poto img {
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.banner h2,
+.banner p {
+  color: black;
+}
+
+#contact {
+  padding-left: 20px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid ;
+  color: #000000;
+}
+
+.contact-submit{
+  background-color: #ddd;
+  color: #fff;
+  cursor: pointer;
+  color: #000000;
+}
+
+.contact-submit:hover{
+  background-color: #68829E;
+}
+
+footer {
+  background-color: #333;
+  padding: 30px;
+  text-align: center;
+}
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <!--sidebar-->
+    <input type="checkbox" id="check" />
+    <div class="sidebar">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Experience</a></li>
+        <li><a href="">Hobby</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><h1>Portofolio</h1></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Hobby">Hobby</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!--menu mobile-->
+    <label for="check" class="mobile-menu"
+      ><i class="fas fa-bars fa-2x"></i
+    ></label>
+
+    <!--banner-->
+    <section class="banner" id="Home">
+      <div class="container">
+        <div class="poto">
+          <img src="img/img1.jpeg" width="250" />
+          <h2>
+            Hallo...<br />
+            I'm a student from Universty Pasundan
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!--about-->
+    <section class="about" id="About">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Hallo nama saya Revina Bella Trisna. Saya asal dari kota Karawang yang memiliki julukan sebagai kota padi. 
+        </p>
+        <p>
+          Saya lahir di Karawang, 23 Januari 2003. Saya sedang meraih gelar ST di Universitas Pasundan Bandung. Alasan saya meraih gelar ST yang akan tercantum dinama belakang saya, karna saya melihat peluang kerja yang sangat besar dan sangat dibutuh dimasa yang semakin maju ini.
+        </p>
+      </div>
+    </section>
+
+    <!--experience-->
+    <section class="experience" id="experience">
+      <div class="container">
+        <h3>Experience</h3>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img5.jpeg" />
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img6.jpeg" />
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img7.jpeg" />
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img7.jpeg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Hobby-->
+    <section class="hobby" id="Hobby">
+      <div class="container">
+        <h3>Hobby</h3>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img2.jpg" />
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img3.jpeg" />
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img4.jpeg" />
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="img/img8.jpeg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+      <div class="container">
+    <h3>Contact</h3>
+    <div class="contact1">
+          <form action="" method="post">
+              <p>Email (wajib diisi) *</p>
+              <input type="email" name="email" id="email" placeholder="Masukkan Email Anda">
+              <p>Pesan (wajib diisi) *</p>
+              <textarea placeholder="Masukkan Pesan Anda"></textarea>
+              <p class="txt-merah">* Bidang yang Wajib Diisi</p>
+              <input type="submit" value="Kirim" class="contact-submit">
+          </form>
+          </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <small>Copyright &copy; 2021 - Revina Bella Trisna.</small>
+      </div>
+    </footer>
+  </body>
+</html>
